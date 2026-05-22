@@ -1,0 +1,25 @@
+{
+  "name": "artes-buho-api-google",
+  "version": "0.1.0",
+  "description": "Hub central de integracion con APIs de Google para ARTES BUHO. Cuenta: booking@artesbuhomanagement.com",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "oauth:setup": "node scripts/oauth-setup.js",
+    "oauth:refresh": "node scripts/oauth-refresh.js",
+    "test:connection": "node scripts/test-connection.js",
+    "list:scopes": "node scripts/list-scopes.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "google-auth-library": "^9.14.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "RUBEN COTON",
+  "license": "UNLICENSED",
+  "private": true
+}
